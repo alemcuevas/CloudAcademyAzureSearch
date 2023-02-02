@@ -45,7 +45,7 @@ These instructions will help you have your own version of the JFK files demo run
 1. Click the below button to upload the provided ARM template to the Azure portal, which is written to automatically deploy and configure the following resources:
     1. An Azure Search service, default set to [Basic](https://azure.microsoft.com/en-us/pricing/details/search/) tier.
     2. An Azure Blob Storage Account, default set to [Standard LRS](https://azure.microsoft.com/en-us/pricing/details/storage/) tier.
-    3. An Azure App Service plan, default set to [Free F1](https://azure.microsoft.com/en-us/pricing/details/app-service/plans/) tier.
+    3. An Azure App Service plan, default set to [Standard S1](https://azure.microsoft.com/en-us/pricing/details/app-service/plans/) tier.
     4. An Azure Web App Service, using the plan from # 3.
     5. An Azure Function instance, using the storage account from # 2 and the plan from # 3.  The Azure Function will be prepublished with the code provided in this repository as part of the template deployment.
     6. A Cognitive Services account, of type [CognitiveServices](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/), that will be used for billing your Cognitive Search skills usage.
